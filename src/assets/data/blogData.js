@@ -16,8 +16,8 @@ const blogData = [
     },
     {
         id: 2,
-        title: "If your car battery id down",
-        author: "Bruce",
+        title: "If your car battery is down",
+        author: "Ryan",
         date: "15 March, 2023",
         time: "7pm",
         imgUrl: img02,
@@ -28,7 +28,7 @@ const blogData = [
     {
         id: 3,
         title: "The best way to give trip",
-        author: "Bruce",
+        author: "Craig",
         date: "15 March, 2023",
         time: "7pm",
         imgUrl: img03,

@@ -1,11 +1,11 @@
-import img01 from "../all-images/cars-img/nissan-offer.png"
-import img02 from "../all-images/cars-img/offer-toyota.png"
-import img03 from "../all-images/cars-img/bmw-offer.png"
-import img04 from "../all-images/cars-img/nissan-offer.png"
-import img05 from '../all-images/cars-img/offer-toyota.png'
-import img06 from "../all-images/cars-img/mercedes-offer.png"
+import img01 from "../all-images/cars-img/nissan-offer.png";
+import img02 from "../all-images/cars-img/offer-toyota.png";
+import img03 from "../all-images/cars-img/bmw-offer.png";
+import img04 from "../all-images/cars-img/nissan-offer.png";
+import img05 from "../all-images/cars-img/offer-toyota.png";
+import img06 from "../all-images/cars-img/mercedes-offer.png";
 import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png"
+import img08 from "../all-images/cars-img/mercedes-offer.png";
 
 const carData = [
     {
@@ -59,7 +59,7 @@ const carData = [
         rating: 112,
         carName: "Nissan Mercielago",
         imgUrl: img04,
-        model: "Model-2022",
+        model: "Model 3",
         price: 70,
         speed: "20kmpl",
         gps: "GPS Navigation",
@@ -89,7 +89,7 @@ const carData = [
         rating: 119,
         carName: "Mercedes Benz XC90",
         imgUrl: img06,
-        model: "Model-2022",
+        model: "Model 3",
         price: 85,
         speed: "20kmpl",
         gps: "GPS Navigation",
