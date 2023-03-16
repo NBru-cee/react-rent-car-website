@@ -1,0 +1,81 @@
+.find-cars-left{
+    background: linear-gradient(#f9a826e6, #f9a826e6), url("../assets/all-images/toyota-offer-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+}
+
+.find-cars-left h2{
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.form-group{
+    width: 30%;
+    margin-bottom: 0;
+}
+
+
+.form-group input{
+    border: 1px solid #020a4de9;
+    padding: 8px 12px;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-group input::placeholder{
+    color: #7c8a97;
+}
+
+.form{
+    background: #fff;
+    padding: 55px 15px;
+}
+
+.select-group{
+    width: 30%;
+}
+
+.select-group select{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #020a4de9;
+    outline: none;
+    color: #7c8a97;
+    border-radius: 10px;
+}
+
+.form-row{
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+
+.hero-slider-section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+
+.hero-form{
+    position: absolute;
+    bottom: -150px;
+    z-index: 11;
+    width: 100%;
+}
+
+.journey-time::before{
+content: "Journey time";
+margin-right: 0.8rem;
+color: #7c8a97;
+}
+
+.find-car-btn{
+background: #000d6b !important;
+  color: #fff;
+    padding: 8px 12px;
+    width: 11rem;
+    border: none;
+    outline: none;
+}
