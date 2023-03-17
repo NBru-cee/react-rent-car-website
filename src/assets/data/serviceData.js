@@ -3,7 +3,7 @@ const serviceData = [
         id: 1,
         title: "City Transfer",
         icon: "ri-map-pin-2-line",
-        desc: "TEffortlessly transfer between city destinations with our convenient and affordable car rental service.",
+        desc: "Effortlessly transfer between city destinations with our convenient and affordable car rental service.",
     },
     {
         id: 2,
