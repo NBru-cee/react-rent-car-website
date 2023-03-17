@@ -68,9 +68,11 @@ const Footer = () => {
                                 Head Office
                             </h5>
                             <p className="office-info">
-                                123 Remera, Kigali, Rwanda
+                                986 KT Remera, Kigali, Rwanda
                             </p>
-                            <p className="office-info">Phone: +2555345875365</p>
+                            <p className="office-info">
+                                Phone: +250-794-587-5365
+                            </p>
                             <p className="office-info">
                                 Email: bruce111@gmail.com
                             </p>
@@ -98,7 +100,7 @@ const Footer = () => {
                     <Col lg="12">
                         <div className="footer-bottom">
                             <p className="section-description d-flex gap-1 justify-content-center align-items-center pt-4">
-                                <i className="ri-copyright-line"></i>Copyright{" "}
+                                <i className="ri-copyright-line"></i>Copyright
                                 {year}, Developed by Bruce Nkundabagenzi. All
                                 Rights reserved
                             </p>

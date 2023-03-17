@@ -22,8 +22,8 @@ const BlogItem = ({ item }) => {
                 <div className="blog-info p-3">
                     <Link to={`/blogs/${title}`} className="blog-title">{title}</Link>
                     <p className="section-description mt-3">
-                        {description.length > 107
-                            ?`${ description.substring(0, 107)}.....`
+                        {description.length > 100
+                            ?`${ description.substring(0, 100)}.....`
                             : description}
                     </p>
                     <Link to={`/blogs/${title}`} className="read-more">

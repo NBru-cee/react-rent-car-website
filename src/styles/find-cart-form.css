@@ -144,6 +144,7 @@
 
     .find-car-btn {
         font-size: 0.8rem;
+        width: 31rem;
     }
 
     .find-cars-left h2 {
@@ -152,5 +153,11 @@
 
     .hero-form {
         bottom: -250px;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .find-car-btn {
+        width: 24rem;
     }
 }
