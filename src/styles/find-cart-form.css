@@ -8,7 +8,7 @@
 
 .find-cars-left h2 {
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .form-group {
@@ -75,7 +75,6 @@
     background: #000d6b !important;
     color: #fff;
     padding: 8px 12px;
-    width: 11rem;
     border: none;
     outline: none;
 }
@@ -87,10 +86,6 @@
 
     .find-cars-left h2 {
         font-size: 1.5rem;
-    }
-
-    .find-car-btn {
-        width: 9rem;
     }
 
     .form {
@@ -119,10 +114,6 @@
     .form {
         padding: 20px 10px;
     }
-
-    .find-car-btn {
-        width: 12rem;
-    }
 }
 
 @media only screen and (max-width:576px) {
@@ -144,7 +135,7 @@
 
     .find-car-btn {
         font-size: 0.8rem;
-        width: 31rem;
+       
     }
 
     .find-cars-left h2 {
@@ -153,11 +144,5 @@
 
     .hero-form {
         bottom: -250px;
-    }
-}
-
-@media only screen and (max-width:430px) {
-    .find-car-btn {
-        width: 24rem;
     }
 }

@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import React from "react";
+import "../../styles/testimonial.css";
 import ava01 from "../../assets/all-images/ava-1.jpg";
 import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
@@ -9,10 +10,10 @@ const Testimonials = () => {
     const settings = {
         dots: true,
         infinite: true,
-        auotoplay: true,
+        autoplay: true,
         speed: 1000,
         swipeToSlide: true,
-        auotoplaySpeed: 2000,
+        autoplaySpeed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
@@ -63,8 +64,7 @@ const Testimonials = () => {
                     Wow ! I was able to find a great car at a reasonable price,
                     and the process was quick and painless. The customer service
                     was also top-notch, as they were responsive and helpful when
-                    I had a question. Will definitely be using this website
-                    again in the future!
+                    I had a question. Definitely be using this website!
                 </p>
                 <div className="mt-3 d-flex align-items-center gap-4">
                     <img
@@ -105,8 +105,8 @@ const Testimonials = () => {
                     I recently used this car rental website and I was blown away
                     by their service. The website was easy to navigate, and the
                     rental process was fast and efficient. I highly recommend
-                    this website for anyone in need of a reliable and
-                    hassle-free car rental service.
+                    this website for anyone in need of a reliable car rental
+                    service.
                 </p>
                 <div className="mt-3 d-flex align-items-center gap-4">
                     <img

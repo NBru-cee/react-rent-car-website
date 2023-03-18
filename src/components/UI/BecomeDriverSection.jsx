@@ -8,7 +8,7 @@ const BecomeDriverSection = () => {
         <section className="become-driver">
             <Container>
                 <Row>
-                    <Col lg="6" md="6" sm="12">
+                    <Col lg="6" md="6" sm="12" className="become-driver-img">
                         <img
                             src={driverImg}
                             alt="driver img"
@@ -16,7 +16,7 @@ const BecomeDriverSection = () => {
                         />
                     </Col>
 
-                    <Col lg="6" md="6" sm="12">
+                    <Col lg="6" md="6" sm="12" >
                         <h2 className="section-title become-driver-title">
                             Do you want to earn with us? So don't be late
                         </h2>
