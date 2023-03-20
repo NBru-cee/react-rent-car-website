@@ -1,7 +1,7 @@
 import masterCard from "../../assets/all-images/master-card.jpg"
-
+import payPal from "../../assets/all-images/paypal.jpg"
 import React from 'react'
-
+import "../../styles/payment-method.css"
 const PaymentMethod = () => {
   return (
       <>
@@ -22,6 +22,16 @@ const PaymentMethod = () => {
                   <input type="radio" />  Master Card
               </label>
               <img src={masterCard} alt="master-card" />
+          </div>
+
+          <div className="payment mt-3 d-flex align-items-center justify-content-between ">
+              <label htmlFor="" className='d-flex align-items-center gap-2'>
+                  <input type="radio" />   Paypal
+              </label>
+              <img src={payPal} alt="master-card" />
+          </div>
+          <div className="payment text-end mt-5">
+              <button>Reserve Now</button>
           </div>
        </>
   )
