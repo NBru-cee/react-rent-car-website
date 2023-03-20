@@ -1,5 +1,5 @@
-import React,{useRef} from "react";
-import { Container, Row, Col, Nav } from "reactstrap";
+import React, { useRef } from "react";
+import { Container, Row, Col } from "reactstrap";
 import "../../styles/header.css";
 import { Link, NavLink } from "react-router-dom";
 const navLinks = [
@@ -10,8 +10,8 @@ const navLinks = [
     { path: `/contact`, display: `Contact` },
 ];
 const Header = () => {
-    const menuRef = useRef(null)
-    const toggleMenu = () => menuRef.current.classList.toggle("menu-active")
+    const menuRef = useRef(null);
+    const toggleMenu = () => menuRef.current.classList.toggle("menu-active");
 
     return (
         <header className="header">

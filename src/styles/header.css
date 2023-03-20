@@ -120,6 +120,7 @@
     display: flex;
     align-items: center;
     column-gap: 2.7rem;
+    transition: 5s ease;
 }
 
 .nav-item {
@@ -188,7 +189,7 @@
     }
 
     .menu {
-        width: 250px;
+        width: 50%;
         height: 100%;
         background: #fff;
         display: flex;
@@ -196,6 +197,7 @@
         flex-direction: column;
         row-gap: 2rem;
         justify-content: center;
+
     }
 
     .menu a {
@@ -203,7 +205,9 @@
         font-weight: 600;
         font-weight: 0.9rem;
     }
-    .menu-active{
+
+    .menu-active {
         display: block;
     }
+
 }
