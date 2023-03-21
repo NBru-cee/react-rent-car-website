@@ -4,7 +4,7 @@ import { useParams, Link } from "react-router-dom";
 import blogData from "../assets/data/blogData";
 import Helmet from "../components/Helmet/Helmet";
 import commentImg from "../assets/all-images/ava-1.jpg";
-import "../styles/blog-details.css"
+import "../styles/blog-details.css";
 
 const BlogDetails = () => {
     const { slug } = useParams();
@@ -13,7 +13,7 @@ const BlogDetails = () => {
         window.scrollTo(0, 0);
     }, [blog]);
     return (
-        <Helmet>
+        <Helmet title="Blog Post">
             <section>
                 <Container>
                     <Row>
@@ -63,11 +63,11 @@ const BlogDetails = () => {
                                             14 July, 2023
                                         </p>
                                         <p className="section-description">
-                                            Lorem ipsum dolor sit, amet
-                                            consectetur adipisicing elit. Ut
-                                            labore sit maxime, doloremque
-                                            consectetur ipsum. Maxime blanditiis
-                                            deserunt culpa. Dolorum.
+                                            It's always great to hear that. I
+                                            have helped someone have a better
+                                            experience. It's clear that this
+                                            person put those tips into practice
+                                            and saw positive results.
                                         </p>
                                         <span className="replay d-flex align-items-center gap-1">
                                             <i className="ri-reply-line"></i>
@@ -78,16 +78,31 @@ const BlogDetails = () => {
                                 {/* comment form */}
                                 <div className="leave-comment-form mt-5">
                                     <h2>Leave a Comment</h2>
-                                    <p className="section-description">You must sign in to make or comment a post</p>
+                                    <p className="section-description">
+                                        You must sign in to make or comment a
+                                        post
+                                    </p>
                                     <Form>
-                                        <FormGroup className="d-flex gap-3"> 
-                                            <Input type="text" placeholder="Full Name" />
-                                            <Input type="email" placeholder="Email"/>
+                                        <FormGroup className="d-flex gap-3">
+                                            <Input
+                                                type="text"
+                                                placeholder="Full Name"
+                                            />
+                                            <Input
+                                                type="email"
+                                                placeholder="Email"
+                                            />
                                         </FormGroup>
                                         <FormGroup>
-                                            <textarea rows="5" className="w-100 py-2 px-3" placeholder="Comment"></textarea>
+                                            <textarea
+                                                rows="5"
+                                                className="w-100 py-2 px-3"
+                                                placeholder="Comment"
+                                            ></textarea>
                                         </FormGroup>
-                                        <button className="btn comment-btn mt-3">Post a Comment</button>
+                                        <button className="btn comment-btn mt-3">
+                                            Post a Comment
+                                        </button>
                                     </Form>
                                 </div>
                             </div>
@@ -97,16 +112,25 @@ const BlogDetails = () => {
                             <div className="recent-post mb-4">
                                 <h5 className="fw-bold">Recent Posts</h5>
                             </div>
-                            {
-                                blogData.map((item) => (
-                                    <div className="recent-blog-post mb-4" key={item.id}>
-                                        <div className="recent-blog-item d-flex gap-3">
-                                            <img src={item.imgUrl} alt={item.author} className="w-25 rounded-2" />
-                                            <h6><Link to={`/blogs/${item.title}`}>{blog.title}</Link></h6>
-                                        </div>
-    </div>
-                                ))
-                            }
+                            {blogData.map((item) => (
+                                <div
+                                    className="recent-blog-post mb-4"
+                                    key={item.id}
+                                >
+                                    <div className="recent-blog-item d-flex gap-3">
+                                        <img
+                                            src={item.imgUrl}
+                                            alt={item.author}
+                                            className="w-25 rounded-2"
+                                        />
+                                        <h6>
+                                            <Link to={`/blogs/${item.title}`}>
+                                                {blog.title}
+                                            </Link>
+                                        </h6>
+                                    </div>
+                                </div>
+                            ))}
                         </Col>
                     </Row>
                 </Container>

@@ -6,10 +6,10 @@ import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import driveImg from "../assets/all-images/drive.jpg";
 import OurMembers from "../components/UI/OurMembers";
-import "../styles/about.css"
+import "../styles/about.css";
 const About = () => {
     return (
-        <Helmet>
+        <Helmet title="About">
             <CommonSection title="About Us" />
             <AboutSection aboutClass="aboutPage" />
 
@@ -32,19 +32,20 @@ const About = () => {
                                     Solutions
                                 </h2>
                                 <p className="section-description">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Minus fugit sapiente quod
-                                    ea vitae eaque architecto explicabo,
-                                    mollitia animi, reprehenderit suscipit
-                                    aliquam laborum sint voluptatibus dolor,
-                                    consequatur totam nulla quam iste amet
-                                    doloremque facilis dolorum vel fugiat.
+                                    We are committed to providing safe ride
+                                    solutions to all customers. Our vehicles are
+                                    regularly inspected and maintained to meet
+                                    high safety standards, and our drivers are
+                                    trained to prioritize safe driving
+                                    practices.
                                 </p>
                                 <p className="section-description">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Atque non unde, omnis
-                                    veritatis praesentium consectetur alias
-                                    voluptatum.
+                                    At our website, safety is our top priority.
+                                    Our drivers follow traffic rules, avoid
+                                    distractions, and drive defensively, while
+                                    our vehicles are equipped with a range of
+                                    safety features. Choose our car rental
+                                    services for a safe and enjoyable journey.
                                 </p>
                                 <div className="d-flex align-items-center gap-3 mt-4">
                                     <span className="fs-4">

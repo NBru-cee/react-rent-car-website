@@ -1,0 +1,35 @@
+.social-link-icon {
+    text-decoration: none;
+    color: #000d6b;
+    border: 2px solid #000d6b;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.contact-btn {
+    padding: 7px 15px;
+    background: #000d6b;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    opacity: 0.9;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #000d6b;
+    padding: 7px 15px;
+    border-radius: 5px;
+    outline: none;
+}
