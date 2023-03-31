@@ -50,29 +50,30 @@
 .reserve-btn a {
     text-decoration: none;
     font-weight: 600;
+    color: #fff ;
 }
 
-@media only screen and (max-width: 992px){
-    .slider-item{
+@media only screen and (max-width: 992px) {
+    .slider-item {
         height: 530px;
         width: 100%;
     }
 
-     .slider-content{
+    .slider-content {
         margin-top: 100px;
-     }
+    }
 
-     .slider-content h1{
+    .slider-content h1 {
         font-size: 2rem;
-     }
+    }
 }
 
-@media only screen and (max-width: 768px){
-.slider-item{
-    height: 450px;
-}
+@media only screen and (max-width: 768px) {
+    .slider-item {
+        height: 450px;
+    }
 
-.slider-content h1{
-    font-size: 1.5rem; 
-}
+    .slider-content h1 {
+        font-size: 1.5rem;
+    }
 }

@@ -84,14 +84,13 @@ const Home = () => {
                 </Container>
             </section>
 
-
             {/* blog list section */}
             <section>
                 <Container>
                     <Row>
                         <Col lg="12" className="mb-5 text-center">
                             <h6 className="section-subtitle">
-                               Explore our blogs
+                                Explore our blogs
                             </h6>
                             <h2 className="section-title">Latest Blogs</h2>
                         </Col>
